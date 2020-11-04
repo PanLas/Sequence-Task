@@ -43,7 +43,7 @@ def number_steps_to_reach_one(interval_m):
 
 
 start_time = time.time()
-for number in range(1, number_executions):
+for number in range(1, number_executions + 1):
     number_steps_to_interval = number_steps_to_reach_one(interval_m)
 end_time = time.time()
 total_time = end_time - start_time
